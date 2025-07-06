@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 echo "<script>alert('Invalid password.');</script>";
             }
         } else {
-            echo "<script>alert('Admin username not found.');</script>";
+            echo "<script>alert('Login failed.');</script>";
         }
 
         $stmt->close();
